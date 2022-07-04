@@ -1,0 +1,27 @@
+.benefits {
+  padding-top: 94px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    flex-basis: calc((100% - 90px) / 4);
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__icon-box {
+    background-color: #f5f4fa;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+  }
+}

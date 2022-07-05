@@ -3,6 +3,7 @@
 @import './base/common';
 @import './utils/hidden';
 @import './utils/placeholders';
+@import './utils/mixins';
 
 @import './components/container';
 @import './components/section';
@@ -12,9 +13,11 @@
 @import './components/sub-title';
 @import './components/text';
 @import './components/modal';
+@import './components/nav';
+@import './components/logo';
+@import './components/contacts';
 
 @import './layout/header';
-@import './components/logo';
 @import './layout/hero';
 @import './layout/benefits';
 @import './layout/works';

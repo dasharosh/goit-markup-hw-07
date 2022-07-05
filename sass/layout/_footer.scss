@@ -2,8 +2,7 @@
   background-color: #2f303a;
   padding: 60px 0;
   &-blocks {
-    display: flex;
-    align-items: baseline;
+    @include flexCenter(flex, null, baseline);
   }
 
   &__logo {
@@ -54,9 +53,7 @@
   }
 
   &-soc-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexCenter;
     width: 100%;
     height: 100%;
     border-radius: 50%;

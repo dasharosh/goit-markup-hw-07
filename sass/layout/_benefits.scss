@@ -16,9 +16,7 @@
   &__icon-box {
     background-color: #f5f4fa;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexCenter;
     height: 120px;
     border-radius: 4px;
     margin-bottom: 30px;
